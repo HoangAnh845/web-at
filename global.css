@@ -1,0 +1,142 @@
+body {
+  margin: 0;
+  line-height: normal;
+}
+
+:root {
+  /* fonts */
+  --text-md-bold: Inter;
+  --text-regular-normal: Roboto;
+  --text-nm-normal: "Be Vietnam Pro";
+
+  /* font sizes */
+  --text-sm-regular-size: 14px;
+  --text-md-bold-size: 16px;
+  --text-lg-medium-size: 18px;
+  --text-xl-regular-size: 20px;
+  --display-sm-semibold-size: 30px;
+  --font-size-53xl: 72px;
+  --display-xs-semibold-size: 24px;
+  --display-md-semibold-size: 36px;
+  --display-xl-semibold-size: 60px;
+  --heading-h-44-56-700-size: 44px;
+  --text-xs-bold-size: 12px;
+  --font-size-61xl: 80px;
+  --font-size-19xl: 38px;
+  --font-size-31xl: 50px;
+  --display-lg-semibold-size: 48px;
+
+  /* Colors */
+  --gray-50: #f9fafb;
+  --gray-100: #f2f4f7;
+  --gray-200: #eaecf0;
+  --white-dark-white: #fff;
+  --primary-oneat-500: #ef6820;
+  --brand-pr-400: #ef6607;
+  --gray-900: #101828;
+  --color-gray-100: #0c111d;
+  --color-gray-200: rgba(255, 255, 255, 0.6);
+  --gray-600: #475467;
+  --gray-700: #344054;
+  --gray-300: #d0d5dd;
+  --gray-500: #667085;
+  --color-gainsboro: #d9d9d9;
+  --gray-400: #98a2b3;
+  --primary-oneat-600: #e04f16;
+  --color-tomato-100: #d92d20;
+  --primary-oneat-700: #b93815;
+  --error-700: #b42318;
+  --primary-oneat-50: #fef6ee;
+  --primary-oneat-200: #f9dbaf;
+  --primary-700: #6941c6;
+  --primary-koc-500: #7a5af8;
+  --primary-600: #7f56d9;
+  --primary-50: #f9f5ff;
+  --primary-200: #e9d7fe;
+  --success-50: #ecfdf3;
+  --success-200: #abefc6;
+  --success-700: #067647;
+  --color-cornflowerblue: #0081cf;
+  --color-darkslateblue: #213b9f;
+  --black: #000;
+  --secondary-oneat-500: #ee46bc;
+  --primary-oneat-100: #fdead7;
+  --primary-pub-500: #3293fa;
+  --primary-dimuadi-500: #66c61c;
+  --primary-oneat-25: #fefaf5;
+  --primary-oneat-800: #932f19;
+  --error-50: #fef3f2;
+
+  /* Gaps */
+  --gap-xs: 12px;
+  --gap-5xs: 8px;
+  --gap-7xs: 6px;
+  --gap-5xl: 24px;
+  --gap-13xl: 32px;
+  --gap-4xs: 9px;
+  --gap-45xl: 64px;
+  --gap-133xl: 152px;
+  --gap-base: 16px;
+  --gap-3xs: 10px;
+  --gap-21xl: 40px;
+  --gap-29xl: 48px;
+  --gap-9xs: 4px;
+  --gap-37xl: 56px;
+  --gap-xl: 20px;
+  --gap-4xl: 23px;
+  --gap-lgi-4: 19.4px;
+  --gap-12xs: 1px;
+  --gap-27xl: 46px;
+  --gap-139xl: 158px;
+  --gap-11xl: 30px;
+
+  /* Paddings */
+  --padding-xs: 12px;
+  --padding-13xl: 32px;
+  --padding-5xs: 8px;
+  --padding-sm: 14px;
+  --padding-3xs: 10px;
+  --padding-base: 16px;
+  --padding-9xs: 4px;
+  --padding-53xl: 72px;
+  --padding-45xl: 64px;
+  --padding-29xl: 48px;
+  --padding-xl: 20px;
+  --padding-93xl: 112px;
+  --padding-9xl: 28px;
+  --padding-5xl: 24px;
+  --padding-lg: 18px;
+  --padding-81xl: 100px;
+  --padding-21xl: 40px;
+  --padding-7xs: 6px;
+  --padding-11xs: 2px;
+  --padding-37xl: 56px;
+  --padding-91xl: 110px;
+  --padding-261xl: 280px;
+  --padding-2xl: 21px;
+  --padding-32xl: 51px;
+  --padding-lgi: 19px;
+  --padding-30xl: 49px;
+
+  /* Border radiuses */
+  --br-5xs: 8px;
+  --br-181xl: 200px;
+  --br-11xs: 2px;
+  --br-9xl: 28px;
+  --br-base: 16px;
+  --br-xs: 12px;
+  --br-7xs: 6px;
+  --br-12xs: 1px;
+  --br-81xl: 100px;
+  --br-9xs: 4px;
+  --br-11xl: 30px;
+  --br-31xl: 50px;
+
+  /* Effects */
+  --shadow-lg: 0px 12px 16px -4px rgba(16, 24, 40, 0.08),
+    0px 4px 6px -2px rgba(16, 24, 40, 0.03);
+  --shadow-xs: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  --shadow-sm: 0px 1px 3px rgba(16, 24, 40, 0.1),
+    0px 1px 2px rgba(16, 24, 40, 0.06);
+}
+
